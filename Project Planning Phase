@@ -1,0 +1,32 @@
+# Project Planning Phase
+
+project_name = "FitBuddy"
+project_objective = "To help users maintain a healthy lifestyle"
+
+requirements = [
+    "User registration and login",
+    "Track daily fitness activities",
+    "Monitor health progress",
+    "Provide fitness recommendations"
+]
+
+project_phases = [
+    "Project Planning",
+    "Requirement Analysis",
+    "System Design",
+    "Development",
+    "Testing",
+    "Deployment",
+    "Maintenance"
+]
+
+print("Project Name:", project_name)
+print("Project Objective:", project_objective)
+
+print("\nProject Requirements:")
+for requirement in requirements:
+    print("-", requirement)
+
+print("\nProject Development Phases:")
+for phase in project_phases:
+    print("-", phase)
